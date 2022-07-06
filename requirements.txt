@@ -195,8 +195,8 @@ pyparsing==3.0.4
 pyrsistent==0.18.0
 PySocks==1.7.1
 python-dateutil==2.8.2
-python-lsp-black==1.0.0
-python-lsp-jsonrpc==1.0.0
+#python-lsp-black==1.0.0
+#python-lsp-jsonrpc==1.0.0
 #python-lsp-server
 python-slugify==5.0.2
 pytz==2022.1
