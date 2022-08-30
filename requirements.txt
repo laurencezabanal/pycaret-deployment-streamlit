@@ -105,7 +105,7 @@ protobuf==3.20.1
 psutil==5.9.1
 pure-eval==0.2.2
 pyarrow==8.0.0
-pycaret==2.3.10
+pycaret
 pycparser==2.21
 pydantic==1.9.1
 pydeck==0.7.1
