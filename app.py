@@ -2,6 +2,7 @@ from pycaret.regression import load_model, predict_model
 import streamlit as st
 import pandas as pd
 import numpy as np
+from PIL import Image
 
 model = load_model('deployment_28042020')
 
@@ -12,10 +13,11 @@ def predict(model, input_df):
 
 def run():
 
-    from PIL import Image
+    
     image = Image.open('logo.png')
     image_hospital = Image.open('hospital.jpg')
-
+    #print(image)
+    
     st.image(image,use_column_width=False)
 
     add_selectbox = st.sidebar.selectbox(
